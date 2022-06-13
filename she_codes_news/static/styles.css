@@ -1,30 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 body {
     background-color: rgb(240, 239, 239);
+    display: block;
 }
 
 header {
-    display: flex;
+    display: flexbox;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #000;
+    background-image: url('images/cupcake-2.jpg');
+    padding: 10px 10px 10px 20px;
+    height:200px;
 }
 
+
 img {
-    filter: grayscale(100%);
+    width: 50%;
+    height: 30vh;
+    object-fit: cover;
+    object-position: top;
 }
+
 
 h1 {
     font-family: 'Montserrat Subrayada', sans-serif;
+    /* font-family: "Kaushan Script"; */
     text-decoration: none;
     font-size: 4rem;
     margin: 0;
+    color: #fff;
+    text-align: center;
 }
 
 h2 {
-   font-family: 'Montserrat Subrayada', sans-serif; 
+    font-family: "Kaushan Script";
+    text-align: center;
+    font-size: 2rem; 
 }
+
 
 h3 {
     font-size: 2rem;
@@ -34,9 +50,11 @@ h3 {
 #header-text {
     flex-basis: 80%;
     display: flex;
+    align-items: center;
 }
 
 nav {
+    float: none;
     flex-basis: 20%;
     display: flex;
     flex-direction: column;
@@ -46,9 +64,44 @@ nav {
 a {
     margin: 2px;
     text-decoration: none;
-    color: #000;
+    color: black;
 }
 
-a, p {
+a,p {
     font-family: monospace;
+    font-size: 15px;
 }
+
+
+#a-nav {
+    color: #fff;   
+}
+
+.add-story {
+    text-align: center;
+    padding: 40px 180px 40px 180px;
+    font-size: 30px;
+}
+
+.add-story label, input {
+    font-size: 25px;
+}
+
+.button-style {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;  
+}
+
+footer {
+    text-align: center;
+    background-color: #6b469a;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Montserrat Subrayada', sans-serif; 
+}
+
+
+
+
